@@ -5,7 +5,7 @@ This Portfolio is a small project using HTML / CSS. I will be using this to show
 [Live Heroku Deployment](https://new-portfolio-mukesh.herokuapp.com/)
 
 
- <img width="1080" alt="image" src=" ">
+ <img width="1080" alt="image" src="https://github.com/mukesh-techis/Portfolio_Mukesh/blob/main/img/Screenshot%202022-07-28%20at%2011.54.14%20PM.png">
 
 ## Technologies used
 
