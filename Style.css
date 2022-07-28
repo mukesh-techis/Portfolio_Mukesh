@@ -126,13 +126,19 @@ p.copy {
 @media screen and (max-width:540px) {
 
     * {
-        font-size:0.7em
+        font-size:0.9em;
+    }
+    .h1-tag {
+        font-size: 0.7em;
     }
     nav.navbar {
         font-size: 1.5em;
     }
     .navbar span{
         font-size: 1.1em;
+    }
+    .list-nav {
+        font-size: 1em;
     }
     button.github {
         background: #00ABAE;
@@ -142,7 +148,13 @@ p.copy {
         width: 35%;
         border-radius: 2px;
         margin-right: 3%;
+        font-size: 1.2em;
     }
+    .bio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
     .bio-name {
         font-size: 0.7em;
     }
@@ -151,7 +163,7 @@ p.copy {
         font-size: 1em;
     }
     img.profile {
-        width: 40%;
+        width: 90%;
         border-radius: 50%;
         border: 5px solid #00ABAE;
     }
@@ -206,7 +218,10 @@ p.copy {
 
 @media screen and (max-width:920px) and (min-width:540px) {
     * {
-        font-size: 0.8em;
+        font-size: 0.9em;
+    }
+    .h1-tag {
+        font-size: 0.9em;
     }
     nav.navbar {
         font-size: 2em;
@@ -214,26 +229,34 @@ p.copy {
     .navbar span {
         font-size: 1.2em;
     }
+    .list-nav {
+        font-size: 1.3em;
+    }
     button.github {
         background: #00ABAE;
         color: white;
         border: none;
-        padding: 7px;
+        padding: 12px;
         width: 25%;
         border-radius: 3px;
         margin-right: 3%;
+        font-size: 1.5em;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column-reverse;
     }
     .bio-name {
-        font-size: 0.8em;
+        font-size: 1.2em;
     }
     .bio .name span {
         font-weight: bold;
         font-size: 1em;
     }
     img.profile {
-        width: 40%;
+        width: 70%;
         border-radius: 50%;
-        border: 5px solid #00ABAE;
+        border: 10px solid #00ABAE;
     }
     h1 {
         font-size: 2em;
